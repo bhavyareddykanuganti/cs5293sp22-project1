@@ -12,15 +12,11 @@ import os
 def textdata(docs):
     data = []
     # txtfile = glob.glob(docs)
-    # print(txtfile)
     for file in docs:
-        # print(file)
         # txtfile = glob.glob(file)
-        # print(txtfile)
         op = open(file, 'r')
         temp = op.read()
         data.append(temp)
-    #print(len(data))
     return data
 
 ###REDACTING NAMES###
@@ -43,7 +39,7 @@ def redact_name(data):
 ###REDACTING GENDER REVEALING WORDS###
 
 def redact_gender(data):
-    gender = ['him', 'her', 'father', 'mother', 'woman', 'man','men','women', 'boy', 'girl','he', 'she', 'his', 'hers', 'male', 'female', 'HIM', 'HER', 'FATHER', 'MOTHER', 'MAN', 'WOMAN', 'MEN', 'WOMEN', 'FATHER', 'MOTHER','BOY', 'GIRL', 'HE', 'SHE','HIS', 'HERS', 'MALE', 'FEMALE']
+    gender = ['him ', 'her ', 'father', 'mother', 'woman', 'man','men','women', 'boy', 'girl','he ', 'she ', 'his', 'hers', 'male', 'female', 'Him', 'Her', 'Father', 'Mother', 'Woman', 'Man','Men','Women', 'Boy', 'Girl','He', 'She', 'His', 'Hers', 'Male', 'Female','HIM', 'HER', 'FATHER', 'MOTHER', 'MAN', 'WOMAN', 'MEN', 'WOMEN', 'FATHER', 'MOTHER','BOY', 'GIRL', 'HE', 'SHE','HIS', 'HERS', 'MALE', 'FEMALE']
     token = nltk.word_tokenize(data)
     gender_words = []
     for i in token:

@@ -159,8 +159,9 @@ It is checked using 'assert test is not None'.
 
 ###test_concept.py:
 
-The file test_concept.py is used to test if the concept sentence has been redacted from a line. 
-It is checked using 'assert test is not None'. 
+The file test_concept.py is used to test if the sentence related to the word
+has been redacted. 
+It is checked using  'assert test is not None'. 
 
 #Execution
 
@@ -181,10 +182,17 @@ The following command has to be used to run the test file
 ``pipenv run python -m pytest``
 
 
+##Externsl Links:
+https://nanonets.com/blog/named-entity-recognition-with-nltk-and-spacy/ - helped in redacting names.
 
-https://nanonets.com/blog/named-entity-recognition-with-nltk-and-spacy/ - helped in redacting names
-https://www.holisticseo.digital/python-seo/nltk/wordnet - helped with concept function
+https://wmich.edu/writing/rules/addresses: helped in writing regex for addresses.
+
+https://www.holisticseo.digital/python-seo/nltk/wordnet - helped with concept function.
 
 
 collaborators
 license
+#nltk.download('averaged_perceptron_tagger')
+#nltk.download('wordnet')
+#nltk.download('omw-1.4')
+remove # in code before submitting

@@ -37,9 +37,5 @@ if __name__ == '__main__':
             main.stats(args,name,gender_words,date,phone,address,synsentences)
 
         if args.output:
-            print(data)
-            print('hiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii')
-            #print(i)
-            print(args.input[0][j])
             main.output(args.input[0][j], data, args.output)
             j+=1
