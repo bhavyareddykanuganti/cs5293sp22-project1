@@ -82,7 +82,7 @@ def redact_date(data):
 ###REDACTING PHONE NUMBERS###
 
 def redact_phnum(data):
-    pattern=('((\+\d{0,2}\s)?\(?\d{3}\)?[\.|\-|\s]?\(?\d{3}\)?[\.|\-|\s]\(?\d{4}\)?)|((\+\d{0,2}\s)?\(?\d{10}\)?)')
+    pattern=('((\+\d{0,2}\s)?\(?\d{3}\)?[\-|\s]?\(?\d{3}\)?[\-|\s]\(?\d{4}\)?)')
     match = re.findall(pattern, data)
     phone = []
     phone1 = []
@@ -94,6 +94,7 @@ def redact_phnum(data):
     for l in phone1:
         if l not in phone:
             phone.append(l)
+    #print(phone)
     return data,phone
 
 ###REDACTING ADDRESSES###
@@ -120,18 +121,20 @@ def concept(word,data):
     synonyms = []
     synsentences1 = []
     synsentences = []
-    for syn in wordnet.synsets(word):
-        for l in syn.lemmas():
-            synonyms.append(l.name())
-    for i in nltk.sent_tokenize(data):
-        for j in synonyms:
-            #print(i,j)
-            if j.lower() in i.lower():
-                data = data.replace(i,'█' * len(i))
-                synsentences1.append(i)
-    for l in synsentences1:
-        if l not in synsentences:
-            synsentences.append(l)
+    #print(word)
+    for x in word:
+        for syn in wordnet.synsets(x):
+            for l in syn.lemmas():
+                synonyms.append(l.name())
+        for i in nltk.sent_tokenize(data):
+            for j in synonyms:
+                #print(i,j)
+                if j.lower() in i.lower():
+                    data = data.replace(i,'█' * len(i))
+                    synsentences1.append(i)
+        for l in synsentences1:
+            if l not in synsentences:
+                synsentences.append(l)
     #print(synsentences)
     return data,synsentences
 
@@ -159,10 +162,9 @@ def stats(filePath,args,name,gender_words,date,phone,address,synsentences):
     for i in address:
         if i != '':
             address_count+=1
-    #for i in synsentences:
-        #if i != '':
-            #synsentence_count+=1
-    synsentence_count=len(synsentences)
+    for i in synsentences:
+        if i != '':
+            synsentence_count+=1
     sp = filePath.split("\\")
     temp = sp[-1].split(".")
     temp[0] += '.redacted.txt'
@@ -185,7 +187,6 @@ def output(filePath, data, outputPath):
     sp = filePath.split("\\")
     temp = sp[-1].split(".")
     temp[0] += '.redacted.txt'
-
     #print(temp[0])
     if not os.path.exists(outputPath):
         os.mkdir(outputPath)

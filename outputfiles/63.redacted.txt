@@ -1,46 +1,70 @@
-Message-ID: <5███████████855674654.JavaMail.evans@thyme>
-Date: ███, ███████████ 03:56:00 -0700 (PDT)
-From: phillip.allen@enron.com
-To: matthew.lenhart@enron.com
-Subject: Thoughts on Presentation
+Message-ID: <21293249.1075841531700.JavaMail.evans@thyme>
+Date: Sat, ███████████ 12:18:50 -0700 (PDT)
+From: edismail@incident.com
+To: edis-by-email@incident.com
+Subject: [EDIS]  EARTHQUAKE INFORMATION [News: █████████]
 Mime-Version: 1.0
 Content-Type: text/plain; charset=us-ascii
 Content-Transfer-Encoding: 7bit
-X-From: ███████████████
-X-To: ███████████████
+X-From: EDIS Email Service <edismail@incident.com>@ENRON <IMCEANOTES-EDIS+20Email+20Service+20+3Cedismail+40incident+2Ecom+3E+40ENRON@ENRON.com>
+X-To: EDIS-by-Email@incident.com
 X-cc:
 X-bcc:
-X-Folder: \Phillip_Allen_Dec2000\Notes Folders\Discussion threads
-X-Origin: Allen-P
-X-FileName: pallen.nsf
+X-Folder: \ExMerge - █████████, Holden\Read
+X-Origin: SALISBURY-H
+X-FileName: holden salisbury ███████.PST
 
----------------------- Forwarded by ███████████████/HOU/ECT on ██████████
-10:55 AM ---------------------------
+PRELIMINARY EARTHQUAKE REPORT
+Rapid Earthquake Location Service
+U.S. Geological Survey, ██████████, California
+U.C. ████████ Seismological Laboratory, ████████, California
+
+Version 2: Updates lower and earlier versions of this earthquake report
+
+A MINOR EARTHQUAKE OCCURRED AT 11:███████████aturday, ███ ████████.
+THE MAGNITUDE 3.9 (ML) EVENT IS LOCATED  ███████████████████████ING, CA
+THE HYPOCENTRAL DEPTH IS   8.███████.
+
+This event has been reviewed by ████████████ - USGS.
+
+PRINCIPAL EARTHQUAKE PARAMETERS
+_______________________________
+
+Magnitude              : 3.████████vent Date & Time      : ██████████   11:59:03 AM PDT
+██████████   18:59:03    UTC
+Location               : 37.9855 N, 118.7600 W
+            : (37 deg. 59.13 min. N, 118 deg. 45.60 min. W)
+Depth                  :   13.8 km. deep (   8.6 miles)
+Location Quality       : Good
+
+32 km ( 20 miles) E   ( 84 degrees) of ██████████, CA
+33 km ( 21 miles) SE  (139 degrees) of Bodie, CA
+41 km ( 26 miles) SSW (210 degrees) of ████████████, NV
+42 km ( 26 miles) NNE ( 26 degrees) of █████████████, CA
+48 km ( 30 miles) N   (352 degrees) of ██████████, CA
+
+ADDITIONAL EARTHQUAKE PARAMETERS
+________________________________
+
+number of phases             : 110
+rms misfit                   :   0.08 seconds
+horizontal location error    :   0.2  km
+vertical location error      :   1.1  km
+maximum azimuthal gap        : 110    degrees
+distance to nearest station  :  33.   km
+event ID:   51108285
 
 
+EDIS-████████ 1224 PDT
 
-	From:  ██████████                           ██████████ 07:26 PM
 
+---------------------------------------------------------
+To update or terminate your subscription to this email service
+visit our webpage at http://www.incident.com/edismail.html.
 
-To: ███████████████/HOU/ECT@ECT
-cc:
-Subject: Thoughts on Presentation
-
-It is a shame that the CAISO doesn't provide actual generation by unit.  The
-WSCC data, which is dicey and we don't have until July 1999, and the CEMMS,
-which comes on a delay, are ultimately our best sources.  For your purposes
-the CAISO may suffice.  ████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████  ████████████████████████████  ████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████  █████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████  ███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████  Having said
-all of that, it is probably close enough and better than your alternatives on
-the generation side.
-
-On the load side I think that I would simply use CAISO actual load.  ██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████  The utilities play lots of game on the
-load side, usually under-scheduling depending on price.
-
-I think the presentation looks good.  It would be useful to share this with
-others up here once you have it finished.  I'd like to see how much gas
-demand goes up with each additional GW of gas-generated electricity,
-especially compared to all gas consumption.  I was surprised by how small the
-UEG consumption was compared to other uses.  If it is the largest marginal
-consumer then it is obviously a different story.
-
-Let's talk.
+EDIS is operated by the Governor's Office of Emergency Services,
+State of California. This email relay is offered by incident.com
+as a public service. Because of the complexity of this system and
+its dependence on other systems, we cannot be responsible for
+delays or failures in transmission.
+---------------------------------------------------------

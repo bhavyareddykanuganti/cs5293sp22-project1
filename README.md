@@ -92,11 +92,8 @@ The given regex pattern detects the following patterns of phone numbers:
 - 854-235-6526
 - (134) 239-0394
 - 113 976 1457
-- 127.087.4321
 - +91 (763) 123-0877
 - +1 (234) 886-0987
-- 9704296221
-- +91 9704296221
 
 ###redact_address(data):
 

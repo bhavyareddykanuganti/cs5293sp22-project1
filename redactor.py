@@ -38,8 +38,11 @@ if __name__ == '__main__':
         if args.addresses:
             data,address=main.redact_address(data)
         if args.concept:
+            sentencelist=[]
             for i in args.concept:
-                data,synsentences = main.concept(i,data)
+                sentencelist.append(i)
+            #print(sentencelist)
+            data,synsentences = main.concept(sentencelist,data)
         if args.stats:
             main.stats(args.input[0][j],args,name,gender_words,date,phone,address,synsentences)
 
