@@ -203,7 +203,7 @@ pipenv run python -m pytest
 ```
 
 
-## Externsl Links:
+## External Links:
 https://nanonets.com/blog/named-entity-recognition-with-nltk-and-spacy/ - helped in redacting names.
 
 https://wmich.edu/writing/rules/addresses: helped in writing regex for addresses.
