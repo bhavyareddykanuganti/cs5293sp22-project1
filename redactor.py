@@ -1,7 +1,9 @@
 import argparse
+
 from project1 import main
 
 if __name__ == '__main__':
+
     parser = argparse.ArgumentParser()
     parser.add_argument("--input", type=str, required=True, action='append', help="Path.", nargs='*')
     parser.add_argument("--names", required=False, action='store_true', help="Redact Names")
@@ -12,11 +14,16 @@ if __name__ == '__main__':
     parser.add_argument("--concept", type=str, required=False, action='append', help="Redact Concept")
     parser.add_argument("--stats", type=str,required=True, help="stats")
     parser.add_argument("--output", type=str, required=True, help="stats")
+
     args = parser.parse_args()
+
     listData = []
+
     j=0
+
     # print(args.input[0])
     listData = main.textdata(args.input[0])
+
     #print(listData)
     #print(listData)
     for data in listData:
@@ -34,7 +41,7 @@ if __name__ == '__main__':
             for i in args.concept:
                 data,synsentences = main.concept(i,data)
         if args.stats:
-            main.stats(args,name,gender_words,date,phone,address,synsentences)
+            main.stats(args.input[0][j],args,name,gender_words,date,phone,address,synsentences)
 
         if args.output:
             main.output(args.input[0][j], data, args.output)

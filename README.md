@@ -31,6 +31,8 @@ addresses, and a sentence regarding a specific concept word are redacted  with f
 - GLOB
 - NLTK:averaged_perceptron_tagger, wordnet, omw-1.4
 - RE
+- OS
+- SYS
 ##Dataset:
 In the \tmp directory few text files from [Enron Email Dataset](https://www.cs.cmu.edu/~enron/) have been taken for 
 redacting the sensitive data.

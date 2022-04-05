@@ -9,6 +9,7 @@ Content-Type: text/plain; charset=us-ascii
 Content-Transfer-Encoding: 7bit
 Bcc: strawbale@crest.org
 X-From: rob_tom@freenet.carleton.ca (Robert W. Tom)
+he is her
 X-To: CALXA@aol.com
 X-cc: strawbale@crest.org
 X-bcc:
