@@ -174,16 +174,16 @@ It is checked using  'assert test is not None'.
 
 The following command has to be used to run the redactor.py file:
 
-
+```
 pipenv run python redactor.py --input '*.txt' \
 --names --dates --phones --genders --address\
                     --concept 'kids' \
                     --output 'files/' \
                     --stats stderr`
-
+```
  
 
-
+```
 pipenv run python redactor.py --input "C:\Users\Bhavya\PycharmProjects\cs52393sp22-project1\tmp/*.txt" 
                     --names 
                     --dates 
@@ -193,14 +193,14 @@ pipenv run python redactor.py --input "C:\Users\Bhavya\PycharmProjects\cs52393sp
                     --concept 'word' 
                     --stats "C:\Users\Bhavya\PycharmProjects\cs52393sp22-project1\stderr\stderr.txt"
                     --output "C:\Users\Bhavya\PycharmProjects\cs52393sp22-project1\outputfiles"
-
+```
 
 
 The following command has to be used to run the test file
 
-
+```
 pipenv run python -m pytest
-
+```
 
 
 ## Externsl Links:
