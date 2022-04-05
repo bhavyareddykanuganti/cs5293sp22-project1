@@ -201,7 +201,8 @@ The following command has to be used to run the test file
 ```
 pipenv run python -m pytest
 ```
-
+## Assumptions and Bugs:
+Only the mentioned regex patterns are being redacted.
 
 ## External Links:
 https://nanonets.com/blog/named-entity-recognition-with-nltk-and-spacy/ - helped in redacting names.
