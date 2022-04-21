@@ -167,7 +167,7 @@ def stats(filePath,args,name,gender_words,date,phone,address,synsentences):
             synsentence_count+=1
     sp = filePath.split("\\")
     temp = sp[-1].split(".")
-    temp[0] += '.redacted.txt'
+    temp[0] += '.redacted'
     if(args.stats == 'stderr'):
         file = open("stderr",mode="a")
         file.write("%s\nName_Count:%d\nGender_Word Count:%d\nDate Count:%d\nPhone Number Count:%d\nAddress Count:%d\nSentence Count:%d\n\n" % (temp[0], name_count, gender_count, date_count, phone_count, address_count, synsentence_count))
@@ -179,6 +179,8 @@ def stats(filePath,args,name,gender_words,date,phone,address,synsentences):
         file.write("%s\nName_Count:%d\nGender_Word Count:%d\nDate Count:%d\nPhone Number Count:%d\nAddress Count:%d\nSentence Count:%d\n\n" % (temp[0], name_count, gender_count, date_count, phone_count, address_count, synsentence_count))
         stdout_file = sys.stdout
         stdout_file.write('%s\nName_Count:%d\nGender_Word Count:%d\nDate Count:%d\nPhone Number Count:%d\nAddress Count:%d\nSentence Count:%d\n\n'%(temp[0],name_count,gender_count,date_count,phone_count,address_count,synsentence_count))
+
+
 
 ###OUTPUT FILES###
 def output(filePath, data, outputPath):
