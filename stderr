@@ -12,6 +12,7 @@ Gender_Word Count:0
 Date Count:1
 Phone Number Count:2
 Address Count:0
+<<<<<<< HEAD
 Sentence Count:0
 
 63.redacted.txt
@@ -206,11 +207,19 @@ Phone Number Count:2
 Address Count:0
 Sentence Count:0
 
+=======
+Sentence Count:1
+
+>>>>>>> origin/master
 63.redacted.txt
 Name_Count:9
 Gender_Word Count:0
 Date Count:6
 Phone Number Count:0
 Address Count:4
+<<<<<<< HEAD
 Sentence Count:0
 
+=======
+Sentence Count:4
+>>>>>>> origin/master

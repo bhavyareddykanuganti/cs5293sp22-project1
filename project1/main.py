@@ -5,9 +5,9 @@ from nltk.corpus import wordnet
 import os
 import sys
 
-#nltk.download('averaged_perceptron_tagger')
-#nltk.download('wordnet')
-#nltk.download('omw-1.4')
+nltk.download('averaged_perceptron_tagger')
+nltk.download('wordnet')
+nltk.download('omw-1.4')
 
 ###READ DATA###
 
