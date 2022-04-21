@@ -47,7 +47,7 @@ def redact_name(data):
 ###REDACTING GENDER REVEALING WORDS###
 
 def redact_gender(data):
-    gender = ['him', 'her', 'father', 'mother', 'woman', 'man','men','women', 'boy', 'girl','he', 'she' , 'his', 'hers', 'male', 'female', 'Him', 'Her', 'Father', 'Mother', 'Woman', 'Man','Men','Women', 'Boy', 'Girl','He', 'She', 'His', 'Hers', 'Male', 'Female','HIM', 'HER', 'FATHER', 'MOTHER', 'MAN', 'WOMAN', 'MEN', 'WOMEN', 'FATHER', 'MOTHER','BOY', 'GIRL', 'HE', 'SHE','HIS', 'HERS', 'MALE', 'FEMALE']
+    gender = ['him', 'her', 'father', 'mother', 'woman', 'man','men','women', 'boy', 'girl','he', 'she' , 'his', 'hers', 'male', 'female', 'Him', 'Her', 'Father', 'Mother', 'Woman', 'Man','Men','Women', 'Boy', 'Girl','He', 'She', 'His', 'Hers', 'Male', 'Female','HIM', 'HER', 'FATHER', 'MOTHER', 'MAN', 'WOMAN', 'MEN', 'WOMEN', 'FATHER', 'MOTHER','BOY', 'GIRL', 'HE', 'SHE','HIS', 'HERS', 'MALE', 'FEMALE','uncle','Uncle','UNCLE','aunt','Aunt','AUNT','husband','Husband','HUSBAND','wife','Wife','WIFE','boyfriend','Boyfriend','BOYFRIEND','girlfriend','Girlfriend','GIRLFRIEND','actor','actress','Actor','Actress','ACTOR','ACTRESS','waiter','waitress','Waiter','Waitress','WAITER','WAITRESS','brother','Brother','BROTHER','sister','Sister','SISTER','Gentleman','Lady','gentleman','lady','GENTLEMAN','LADY','Nephew','Niece','nephew','niece','NEPHEW','NIECE','grandfather','grandmother','Grandfather','Grandmother','GRANDFATHER','GRANDMOTHER','son','daughter','Son','Daughter','SON','DAUGHTER','sir','madam','Sir','Madam','SIR','MADAM','policeman','policewoman','salesman','saleswoman','Policeman','Policewoman','Salesman','Saleswoman','businessman','businesswoman','Englishman','Englishwoman','chairman','chairwoman','postman','postwoman','foreman','forewoman','businessman','businesswoman','Englishman','Englishwoman','chairman','chairwoman','postman','postwoman','foreman','forewoman','Businessman','Businesswoman','englishman','englishwoman','Chairman','Chairwoman','Postman','Postwoman','Foreman','Forewoman','Businessman','Businesswoman','englishman','englishwoman','Chairman','Chairwoman','Postman','Postwoman','Foreman','Forewoman','grandson','grandaughter','Grandson','Grandaughter',]
     token = nltk.word_tokenize(data)
     gender_words1 = []
     gender_words = []
@@ -186,7 +186,7 @@ def output(filePath, data, outputPath):
     #print(file)
     sp = filePath.split("\\")
     temp = sp[-1].split(".")
-    temp[0] += '.redacted.txt'
+    temp[0] += '.redacted'
     #print(temp[0])
     if not os.path.exists(outputPath):
         os.mkdir(outputPath)
