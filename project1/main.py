@@ -191,6 +191,10 @@ def output(filePath, data, outputPath):
     temp[0] += '.redacted'
     #print(temp[0])
     if not os.path.exists(outputPath):
-        os.mkdir(outputPath)
-    with open(os.path.join(outputPath,temp[0]),'w',encoding= 'utf-8') as file1:
-        file1.write(data)
+        #print(outputPath)
+        os.makedirs(outputPath)
+        with open(os.path.join(outputPath, temp[0]), 'w', encoding='utf-8') as file1:
+            file1.write(data)
+    else:
+        with open(os.path.join(outputPath,temp[0]),'w',encoding= 'utf-8') as file1:
+            file1.write(data)
