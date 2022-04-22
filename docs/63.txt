@@ -1,8 +1,8 @@
 Message-ID: <21293249.1075841531700.JavaMail.evans@thyme>
-Date: Sat, ███████████ 12:18:50 -0700 (PDT)
+Date: Sat, 26 May 2001 12:18:50 -0700 (PDT)
 From: edismail@incident.com
 To: edis-by-email@incident.com
-Subject: [EDIS]  EARTHQUAKE INFORMATION [News: █████████]
+Subject: [EDIS]  EARTHQUAKE INFORMATION [News: Statewide]
 Mime-Version: 1.0
 Content-Type: text/plain; charset=us-ascii
 Content-Transfer-Encoding: 7bit
@@ -10,38 +10,39 @@ X-From: EDIS Email Service <edismail@incident.com>@ENRON <IMCEANOTES-EDIS+20Emai
 X-To: EDIS-by-Email@incident.com
 X-cc:
 X-bcc:
-X-Folder: \ExMerge - █████████, Holden\Read
+X-Folder: \ExMerge - Salisbury, Holden\Read
 X-Origin: SALISBURY-H
-X-FileName: holden salisbury ███████.PST
+X-FileName: holden salisbury 6-26-02.PST
 
 PRELIMINARY EARTHQUAKE REPORT
 Rapid Earthquake Location Service
-U.S. Geological Survey, ██████████, California
-U.C. ████████ Seismological Laboratory, ████████, California
+U.S. Geological Survey, Menlo Park, California
+U.C. Berkeley Seismological Laboratory, Berkeley, California
 
 Version 2: Updates lower and earlier versions of this earthquake report
 
-A MINOR EARTHQUAKE OCCURRED AT 11:███████████aturday, ███ ████████.
-THE MAGNITUDE 3.9 (ML) EVENT IS LOCATED  ███████████████████████ING, CA
-THE HYPOCENTRAL DEPTH IS   8.███████.
+A MINOR EARTHQUAKE OCCURRED AT 11:59 AM PDT Saturday, May 26, 2001.
+THE MAGNITUDE 3.9 (ML) EVENT IS LOCATED  20 MILES E   OF LEE VINING, CA
+THE HYPOCENTRAL DEPTH IS   8.6 MILES.
 
-This event has been reviewed by ████████████ - USGS.
+This event has been reviewed by Steve Walter - USGS.
 
 PRINCIPAL EARTHQUAKE PARAMETERS
 _______________________________
 
-Magnitude              : 3.████████vent Date & Time      : ██████████   11:59:03 AM PDT
-██████████   18:59:03    UTC
+Magnitude              : 3.93  ML
+Event Date & Time      : 05/26/2001   11:59:03 AM PDT
+05/26/2001   18:59:03    UTC
 Location               : 37.9855 N, 118.7600 W
             : (37 deg. 59.13 min. N, 118 deg. 45.60 min. W)
 Depth                  :   13.8 km. deep (   8.6 miles)
 Location Quality       : Good
 
-32 km ( 20 miles) E   ( 84 degrees) of ██████████, CA
+32 km ( 20 miles) E   ( 84 degrees) of Lee Vining, CA
 33 km ( 21 miles) SE  (139 degrees) of Bodie, CA
-41 km ( 26 miles) SSW (210 degrees) of ████████████, NV
-42 km ( 26 miles) NNE ( 26 degrees) of █████████████, CA
-48 km ( 30 miles) N   (352 degrees) of ██████████, CA
+41 km ( 26 miles) SSW (210 degrees) of Qualeys Camp, NV
+42 km ( 26 miles) NNE ( 26 degrees) of Mammoth Lakes, CA
+48 km ( 30 miles) N   (352 degrees) of Toms Place, CA
 
 ADDITIONAL EARTHQUAKE PARAMETERS
 ________________________________
@@ -55,7 +56,7 @@ distance to nearest station  :  33.   km
 event ID:   51108285
 
 
-EDIS-████████ 1224 PDT
+EDIS-05-26-01 1224 PDT
 
 
 ---------------------------------------------------------
