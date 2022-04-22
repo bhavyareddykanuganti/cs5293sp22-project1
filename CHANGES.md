@@ -24,3 +24,11 @@
 - Missing Stats
 
        The reason for the above errors was because the file wasn't created
+
+# Execution
+``pipenv run python redactor.py --input "docs/*.txt" --names --dates --phones --genders --addresses --concept 'schedule' --concept 'gender' --stats stderr --output "outfiles/output"``
+
+or
+
+`pipenv run python redactor.py --input "tmp/*.txt" --names --dates --phones --genders --addresses --concept 'schedule' --concept 'gender' --stats stderr --output "outfiles/output"`
+
